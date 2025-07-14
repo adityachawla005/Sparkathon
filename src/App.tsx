@@ -10,6 +10,7 @@ import ActionSelect from "./pages/ActionSelect";
 import Cart from "./pages/Cart";
 import MapView from "./pages/MapView";
 import NotFound from "./pages/NotFound";
+import Collaborate from "./pages/Collaborate";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/action" element={<ActionSelect />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/map" element={<MapView />} />
+          <Route path="/collaborate" element={<Collaborate />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
