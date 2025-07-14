@@ -149,7 +149,7 @@ const MapView = () => {
             <div className="h-[660px] flex flex-col justify-between">
               <div className="flex items-center gap-3 mb-6">
                 <Clock className="w-6 h-6 text-purple-400" />
-                <h2 className="text-xl font-bold text-white">Smart Route Steps</h2>
+                <h2 className="text-xl font-bold text-white">Route Steps</h2>
               </div>
               <div ref={stepsRef} className="space-y-4">
                 {routeSteps.map((step) => (
